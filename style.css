@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Pacifico&family=Shadows+Into+Light&display=swap');
+/*cabecera*/
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  /*background-image: linear-gradient(to right, #ffffff, #e2d9ee, #cdb2d7, #bf8abb, #b35f99, #b54e8f, #b73a84, #b81e78, #ca2688, #dc2e99, #ed36ab, #ff3fbd);*/
+  background-image: linear-gradient(to right, #ffffff, #f0f4ff, #d7ecff, #b4e6ff, #88e1ff, #6dd9ff, #4bd0ff, #00c7ff, #00b3ff, #6996ff, #b46cfb, #eb12c6);
+}
+/*logo cabecera*/
+img {
+  width: 200px;
+}
+
+/*formato de la letra de los enlaces*/
+ul {
+  cursor: pointer;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+
+/*titulos del carrusel*/
+h5 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+/*1 titulo del carrusel*/
+h6 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+}
+/*parrafos del carrusel*/
+p {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #cf116e;
+}
+/*titulo principal de la pagina de inicio*/
+h1 {
+  margin: 25px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.informacion p {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: rgb(27, 122, 122);
+
+}
+/*menu cartas*/
+.card ul li{
+  font-size: 25px;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img{
+  box-shadow: 0px 15px 15px rgba(0,0,0,0.50);
+}
+
+
+/*imagen cafeteria de la pagina de ubicacion y contacto*/ 
+.imagen_cafeteria img {
+  width: 500px;
+  margin: 35px;
+  border-radius: 30px;
+  box-shadow: 0px 15px 15px rgba(0,0,0,0.50);
+  cursor: pointer;
+  
+}
+
+/*main de ubicacion y contacto*/
+.imagen_cafeteria {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+  
+}
+
+/*mapa de la pagina de ubicacion y contacto*/
+#Ubicacion {
+  
+  margin: 35px;
+  display: flex;
+  border-radius: 10px;
+  justify-content:center;
+  
+  
+}
+
+#Ubicacion iframe{
+  border-radius: 10px;
+}
+/* video iframe*/
+.video{
+  margin: 35px;
+  display: flex;
+  justify-content:center;
+  box-shadow: 0px 15px 15px rgba(0,0,0,0.50);
+}
+
+/*mapa iframe*/
+.mapa{
+  margin: 35px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 15px 15px rgba(0,0,0,0.50);
+  cursor: pointer;
+}
+
+/*iconos face, tel., ubicacion y horario*/
+.row{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/*footer con estilo de letra, color etc*/
+footer {
+  width: 100%;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  /*background-image: linear-gradient(to top, #901f5f, #9f1d64, #af1b68, #bf176b, #cf116e, #d91877, #e41f80, #ee2589, #f3359b, #f743ae, #fa51c0, #fb5fd3);*/
+  background-image: linear-gradient(to right, #ffffff, #f0f4ff, #d7ecff, #b4e6ff, #88e1ff, #6dd9ff, #4bd0ff, #00c7ff, #00b3ff, #6996ff, #b46cfb, #eb12c6);
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: white;
+}
+/*lofo del footer*/
+footer img {
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* transiciones en tarjetas e imagenes con transformacion a escala*/
+.card{
+  transition: all 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.15);
+}
+
+.card li{
+  transition: all 0.3s;
+}
+
+.card li:hover {
+  transform: scale(1.15);
+}
+
+.mapa:hover {
+  transform: scale(1.15);
+}
+.mapa {
+  transition: all 0.5s;
+}
+
+.imagen_cafeteria img:hover {
+  transform: scale(1.15);
+}
+
+.imagen_cafeteria img {
+  transition: all 0.5s;
+}
